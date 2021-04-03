@@ -1,0 +1,115 @@
+.mat-sidenav-container{
+    flex: 1;
+  }
+  
+  .mat-sidenav{
+    width: 200px;
+  }
+  
+  .mat-sidenav .mat-nav-list .mat-list-item span{
+    padding:0px 8px;
+  }
+  .toolbar-spacer {
+    flex: 1 1 auto;
+  }
+  
+  $sbprimary:#7E98A7;
+  $sbsecondary:#A7A7A7;
+  $sbtherd:#B1B4AC;
+  $sbforth:#B6CBD6;
+  $sbfifth:#B1B4AC;
+  $black:#192A3E;
+  $table_black:#323C47;
+  $table_gray:#707683;
+  $dark_blue_text:#334D6E;
+  $gray:#90A0B7;
+  $icon_gray:#C2CFE0;
+  $accent_blue:#109CF1;
+  
+  
+  .mat-list-base .mat-list-item {
+    color:$dark_blue_text;
+  }
+  .mat-list-base .mat-list-item:hover {
+    color:$accent_blue;
+  }
+  .content{
+    padding: 16px;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-card-title{
+    color: $dark_blue_text;
+  }
+  .head_1{
+    color:$table_gray;
+  }
+  .border{
+    border-right: 1px solid $gray;
+  }
+  .mat-card-header .mat-icon{
+    color: $gray;
+  }
+  .mat-card-header .b-avatar-1{
+    background: rgba(115,103,240,.12);
+  }
+  .mat-card-header .b-avatar-2{
+    background: rgba(0,207,232,.12);
+  }
+  .mat-card-header .b-avatar-3{
+    background: rgba(234,84,85,.12);
+  }
+  .mat-card-header .b-avatar-4{
+    background: rgba(40,199,111,.12);
+  }
+  .example-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+   .example-toolbar {
+    //position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+    background: white;
+    color: rgb(136 135 133);
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+  }
+  
+  .example-is-mobile .example-toolbar {
+    position: fixed;
+    /* Make sure the toolbar will stay on top of the content as it scrolls past. */
+    z-index: 2;
+    background: white;
+    color: #3f51b5;
+  }
+  
+  h1.example-app-name {
+    margin-left: 18px;
+    margin-top: 41px;
+    width: 121px;
+  }
+  
+  .example-sidenav-container {
+    /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
+       causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
+    flex: 1;
+  }
+  
+  .example-is-mobile .example-sidenav-container {
+    /* When the sidenav is fixed, don't constrain the height of the sidenav container. This allows the
+       `<body>` to be our scrolling element for mobile layouts. */
+    flex: 1 0 auto;
+  }
+  
+  
+  .example-header-image {
+    background-image: url('http://www.smartbill.ae/wp-content/uploads/2020/05/SmartBill-1-1.jpg');
+    background-size: cover;
+  }
+  
