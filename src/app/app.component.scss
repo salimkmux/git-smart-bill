@@ -25,6 +25,8 @@
   $gray:#90A0B7;
   $icon_gray:#C2CFE0;
   $accent_blue:#109CF1;
+  $red:#F7685B;
+  $green:#2ED47A;
   
   
   .mat-list-base .mat-list-item {
@@ -52,16 +54,36 @@
     color: $gray;
   }
   .mat-card-header .b-avatar-1{
-    background: rgba(115,103,240,.12);
+    background: rgb(125 130 130 / 12%);
+  }
+  .mat-card-header .b-avatar-1 .mat-icon{
+    color: $gray;
   }
   .mat-card-header .b-avatar-2{
     background: rgba(0,207,232,.12);
   }
+  .mat-card-header .b-avatar-2 .mat-icon{
+    color: $accent_blue;
+  }
   .mat-card-header .b-avatar-3{
     background: rgba(234,84,85,.12);
   }
+  .mat-card-header .b-avatar-3 .mat-icon{
+    color: $red;
+  }
   .mat-card-header .b-avatar-4{
     background: rgba(40,199,111,.12);
+  }
+  .mat-card-header .b-avatar-4 .mat-icon{
+    color: $green;
+  }
+  .example-additional-selection {
+    opacity: 0.75;
+    font-size: 0.75em;
+  }
+  .mat-button-wrapper{
+    margin-left: 18px;
+    margin-top: 28px;
   }
   .example-container {
     display: flex;
@@ -95,7 +117,7 @@
     width: 121px;
   }
   
-  .example-sidenav-container {
+  .mat-sidenav-container {
     /* When the sidenav is not fixed, stretch the sidenav container to fill the available space. This
        causes `<mat-sidenav-content>` to act as our scrolling element for desktop layouts. */
     flex: 1;

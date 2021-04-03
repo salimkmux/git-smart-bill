@@ -41,9 +41,12 @@ import {MatTableModule} from '@angular/material/table';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { ColumnChartComponent } from './column-chart/column-chart.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ColumnChartComponent,
   ],
   imports: [
     BrowserModule,
@@ -84,7 +87,8 @@ import {MatTreeModule} from '@angular/material/tree';
     MatTableModule,
     MatTabsModule,
     MatTooltipModule,
-    MatTreeModule
+    MatTreeModule,
+    NgApexchartsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
