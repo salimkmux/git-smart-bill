@@ -46,8 +46,8 @@ export class ColumnChartComponent implements OnInit {
     this.chartOptions = {
       series: [
         {
-          name: "distibuted",
-          data: [50, 100, 250, 450, 250, 200, 100, 50]
+          name: "Unit Consumption",
+          data: [50, 100, 250, 350, 150, 100, 150, 50]
         }
       ],
       chart: {
